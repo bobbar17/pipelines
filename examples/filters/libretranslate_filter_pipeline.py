@@ -25,13 +25,13 @@ class Pipeline:
 
         # Source and target languages
         # User message will be translated from source_user to target_user
-        source_user: Optional[str] = "auto"
+        source_user: Optional[str] = "bg"
         target_user: Optional[str] = "en"
 
         # Assistant languages
         # Assistant message will be translated from source_assistant to target_assistant
         source_assistant: Optional[str] = "en"
-        target_assistant: Optional[str] = "es"
+        target_assistant: Optional[str] = "bg"
 
     def __init__(self):
         # Pipeline filters are only compatible with Open WebUI
